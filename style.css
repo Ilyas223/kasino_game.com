@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+}
+.header {
+    background-color: #0f3460;
+    padding: 1em;
+    text-align: center;
+}
+.header h1 {
+    color: #e94560;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.header nav ul li a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+#slot-machine, #wallet {
+    background-color: #16213e;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+#spin-button {
+    padding: 1em;
+    color: #fff;
+    background-color: #e94560;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#spin-button:hover {
+    background-color: #0f3460;
+}
+.footer {
+    background-color: #0f3460;
+    text-align: center;
+    padding: 1em;
+}
